@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<suite name="test xml" verbose="2" parallel="methods"  thread-count="2">
+    <listeners>
+        <listener class-name="ListenersTest">
+
+        </listener>
+    </listeners>
+<test name="testing test">
+
+   <classes>
+      <class name="DriveCar">
+
+      </class>
+
+    </classes>
+</test>
+</suite>
+                  <!--test suite-->
+        <!-- <class name="DependiciesManagement"> </class>
+               <class name="DriveCar"> </class>
+               <class name="Skipcase"> </class>-->
+<!--
+                     grouping-->
+                                <!--<suite name="test xml" verbose="2">-->
+                                <!--<test name="testing test">-->
+                                <!--    <groups>-->
+                                <!--        <run>-->
+                                <!--            <include name="oneplus"> </include>-->
+                                <!--            <include name="moto"> </include>-->
+
+
+                                <!--        </run>-->
+                                <!--    </groups>-->
+
+
+
+                                <!--    <classes>-->
+                                <!--        <class name="Grouping">-->
+
+                                <!--        </class>-->
+
+                                <!--    </classes>-->
+                                <!--</test>-->
+                                <!--</suite>-->
+
+
+ <!--.....        ... .,,,,,,,, parallelTestinh........................................-->
+<!--
+                            <suite name="test xml" verbose="2" parallel="methods"  thread-count="2">
+                            <test name="testing test">
+                                <parameter name="Name" value="deniston">
+
+                                </parameter>
+
+
+
+
+                                <classes>
+                                    <class name="ParallelTesting">
+
+                                    </class>
+
+                                </classes>
+                            </test>
+                            </suite>    -->

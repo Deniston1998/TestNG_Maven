@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [test xml]" verbose="2">
+  <test thread-count="2" parallel="methods" name="testing test(failed)" verbose="2">
+    <parameter name="Name" value="deniston"/>
+    <classes>
+      <class name="ParallelTesting">
+        <methods>
+          <include name="openGoogle"/>
+          <include name="openBing"/>
+        </methods>
+      </class> <!-- ParallelTesting -->
+    </classes>
+  </test> <!-- testing test(failed) -->
+</suite> <!-- Failed suite [test xml] -->
